@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Basic html page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href = "#">Home</a>
+                </li>
+                <li><a href = "#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href = "#contact me">Contact</a></li>
+                <li><a href="./index.html">Go to Contest Page</a></li>
+            </ul>
+            
+            
+        </nav>
+    </header>
+    <main>
+        <section id = "about">
+            <h1 style = "text-align: center;">About me </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus laborum fuga a id, dignissimos quod reiciendis voluptates aperiam fugiat officiis veniam repudiandae error provident expedita dicta maxime dolore eligendi nesciunt suscipit ipsum consequatur enim. Laudantium nobis iste quaerat et totam neque vero quos? Consequuntur in quod nulla temporibus laboriosam.
+
+            </p>
+        </section>
+        <section id = "contact me">
+            <h2  align="center">Contact me</h2>
+            <form action = "index.html" method = "post">
+                <div>
+                    <label for = "name">Name</label>
+                    <input type = "text" id = "name">
+                </div>
+                <div>
+                    <label for="msg">Message</label><br>
+                    <textarea name = "message" id="msg"></textarea>
+                </div>
+                <div>
+                    <label for ="tel" > Phone Number: </label>
+                    <input type = "tel" id = "tel">
+                </div>
+                <div>
+                    <label for = "doa">Date of Appointment: </label>
+                    <input type = "datetime-local" id = "doa">
+                </div>
+                <div>
+                    <label for="contact type">Contact by:</label>
+                   <ul type = "none">
+                        <li>
+                            <input type = "radio" id = "call" name = "contact type">
+                            <label for ="call" >Call</label>
+                        </li>
+                        <li>
+                            <input type = "radio" id = "wtsap" name = "contact type">
+                            <label for = "wtsap">Whatsapp</label>
+                        </li>
+                   </ul> 
+                    
+                </div>
+                <div>
+                    <label for ="time">Time Slot: </label>
+                    <input type = "checkbox" name = "time" id ="m">
+                    <label for = "m">Morning</label>
+                    <input type="checkbox" name = "time" id = "a">
+                    <label for = "a">Afternoon</label>
+                    <input type = "checkbox" name = "time" id = "e">
+                    <label for="e">Evening</label>
+                </div>
+                <div>
+                    <button type = "submit">Submit</button>
+                    <button type = "reset">Reset</button>
+                </div>
+            </form>
+        </section>
+        <section id = "project">
+            <h2 align = "center">Projects</h2>
+            <table border ="1" cellspacing="1" align="center">
+                <thead>
+                    <tr>
+                        <th>
+                            ID
+                        </th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Links</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>akash</td>
+                        <td>Lorem ipsum dolor sit amet.</td>
+                        <td><a href ="#">Project 1</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>tinu  
+                        </td>
+                        <td>Lorem ipsum dolor sit amet consectetur.</td>
+                        <td><a href="#">Project Tinu</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <h2 id = "project" align = "center">You can also connect with me on:</h2>
+        <div align ="center">
+            <a href="#" target = "_blank">LinkedIN</a>
+            <a href="#"  target = "_blank">GitHub</a>
+            <a href="#" target = "_blank">Gmail</a>
+        </div>
+    </footer>
+</body>
+</html>
